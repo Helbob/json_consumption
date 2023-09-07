@@ -1,0 +1,60 @@
+:root {
+  --colorMain: black;
+  --colorBgMain: white;
+
+  --colorHeader: floralwhite;
+  --colorBgHeader: #603140;
+
+  --colorHoverButton: #603140;
+  --colorTextHoverButton: white;
+
+  --fontMain: Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fontMain);
+}
+main {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+header,
+footer {
+  color: var(--colorHeader);
+  background-color: var(--colorBgHeader);
+}
+
+header {
+  padding: 0.25rem 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 0.25rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Non-landmark elements */
+
+article {
+  border: thin solid var(--colorBgHeader);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Classes */
+
+.musician {
+  border: none;
+  margin-bottom: 0;
+}
